@@ -4,12 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "mock": "nodemon --watch db.json --exec json-server db.json --port 3001",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "json-server": "^1.0.0-beta.5",
     "next": "16.1.6",
+    "nodemon": "^3.1.11",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
@@ -18,6 +21,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
+    "concurrently": "^9.2.1",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "typescript": "^5"

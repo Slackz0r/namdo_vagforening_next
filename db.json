@@ -1,0 +1,226 @@
+{
+  "navigation": [
+    {
+      "id": 1,
+      "category": "Grundläggande information",
+      "subCategory": [
+        { "href": "/statutes", "title": "Stadgar" },
+        { "href": "/board", "title": "Styrelse" },
+        { "href": "/membership", "title": "Medlemskap" },
+        { "href": "/properties", "title": "Fastighetsbeteckningar" },
+        { "href": "/contact", "title": "Kontakta oss" }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Verksamhetsinformation",
+      "subCategory": [
+        { "href": "/about", "title": "Verksamhetsinformation" },
+        { "href": "/news", "title": "Händelser och projekt" },
+        { "href": "/calendar", "title": "Kalender" },
+        { "href": "/reports", "title": "Resultat och rapporter" }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Gemenskap",
+      "subCategory": [
+        { "href": "/gallery", "title": "Bilder och video" },
+        { "href": "/map", "title": "Karta över området" }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Övrigt",
+      "subCategory": [
+        { "href": "/gdpr", "title": "GDPR-information" },
+        { "href": "/links", "title": "Länkar" }
+      ]
+    }
+  ],
+  "meetings": [
+    {
+      "id": 1,
+      "title": "Ordinarie föreningsstämma 2023",
+      "date": "2023-09-23",
+      "year": "2023",
+      "content": [
+        {
+          "paragraph": "Protokoll fört vid ordinarie föreningsstämma för Nordöstra Nämdö Samfällighetsförening den 23 september 2023."
+        },
+        {
+          "paragraph": "§1. Ordförande\nTill ordförande för stämman valdes Person A. Röstlängd upprättades."
+        },
+        {
+          "paragraph": "§2. Sekreterare\nTill sekreterare för stämman valdes Person B."
+        },
+        {
+          "paragraph": "§3. Justeringsmän\nTill justeringsmän valdes Person C och Person D."
+        },
+        {
+          "paragraph": "§4. Kallelse\nKallelsen befanns vara utsänd i enlighet med föreningens stadgar."
+        },
+        {
+          "paragraph": "§5. Styrelsens och revisorernas berättelser\nStyrelsen redovisade verksamhetsåret 2022–2023. Revisor redogjorde för revisionsberättelsen."
+        },
+        {
+          "paragraph": "§6. Ansvarsfrihet\nStämman beslutade att bevilja styrelsen ansvarsfrihet för verksamhetsåret."
+        },
+        {
+          "paragraph": "§7. Motioner\nEn motion om förbättrad information till medlemmarna diskuterades. Styrelsen gavs i uppdrag att se över kommunikationsformer."
+        },
+        {
+          "paragraph": "§8. Bryggor och gemensamma anläggningar\nStatus för föreningens bryggor redovisades. Mindre underhåll planeras inför kommande säsong."
+        },
+        {
+          "paragraph": "§9. Ersättning\nStämman beslutade att ingen ersättning ska utgå till styrelsen."
+        },
+        {
+          "paragraph": "§10. Stämmans avslutande\nOrdföranden förklarade stämman avslutad."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Extra föreningsstämma – Bryggprojekt",
+      "date": "2024-03-16",
+      "year": "2024",
+      "content": [
+        {
+          "paragraph": "Protokoll fört vid extra föreningsstämma för Nordöstra Nämdö Samfällighetsförening den 16 mars 2024."
+        },
+        {
+          "paragraph": "§1. Bakgrund\nStämman sammankallades för att behandla frågor rörande långsiktigt underhåll av Bötebryggan."
+        },
+        {
+          "paragraph": "§2. Projektredovisning\nProjektgruppen redovisade nuläge, kostnadsbild och möjliga åtgärder."
+        },
+        {
+          "paragraph": "§3. Beslut\nStämman beslutade att ge styrelsen mandat att gå vidare med offertförfrågningar samt att undersöka möjligheter till bidrag."
+        },
+        {
+          "paragraph": "§4. Finansiering\nDiskussion fördes kring framtida finansiering och eventuella uttaxeringar."
+        },
+        {
+          "paragraph": "§5. Avslut\nOrdföranden förklarade stämman avslutad."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ordinarie föreningsstämma 2024",
+      "date": "2024-09-21",
+      "year": "2024",
+      "content": [
+        {
+          "paragraph": "Protokoll fört vid ordinarie föreningsstämma för Nordöstra Nämdö Samfällighetsförening den 21 september 2024."
+        },
+        {
+          "paragraph": "§1. Ordförande\nTill ordförande för stämman valdes Person E."
+        },
+        {
+          "paragraph": "§2. Verksamhetsberättelse\nStyrelsen redovisade föreningens verksamhet under året."
+        },
+        {
+          "paragraph": "§3. Ekonomi\nResultat- och balansräkning föredrogs och godkändes av stämman."
+        },
+        {
+          "paragraph": "§4. Beslut om avgifter\nStämman beslutade att avgifterna för kommande verksamhetsår ska vara oförändrade."
+        },
+        {
+          "paragraph": "§5. Val\nVal av styrelseledamöter och suppleanter genomfördes enligt valberedningens förslag."
+        },
+        {
+          "paragraph": "§6. Information\nInformation gavs om pågående och planerade åtgärder inom föreningens verksamhetsområde."
+        },
+        {
+          "paragraph": "§7. Avslut\nOrdföranden tackade de närvarande och förklarade stämman avslutad."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Extra föreningsstämma – Vägar och tillgänglighet",
+      "date": "2022-05-14",
+      "year": "2022",
+      "content": [
+        {
+          "paragraph": "Protokoll fört vid extra föreningsstämma för Nordöstra Nämdö Samfällighetsförening den 14 maj 2022."
+        },
+        {
+          "paragraph": "§1. Bakgrund\nStämman sammankallades för att behandla frågor rörande skick och underhåll av föreningens vägar."
+        },
+        {
+          "paragraph": "§2. Redovisning\nStyrelsen redovisade nuläge samt behov av förbättringar gällande vägunderhåll och dränering."
+        },
+        {
+          "paragraph": "§3. Diskussion\nDiskussion fördes kring prioritering av åtgärder samt tidsplan."
+        },
+        {
+          "paragraph": "§4. Beslut\nStämman beslutade att ge styrelsen i uppdrag att ta in offerter för planerade åtgärder."
+        },
+        {
+          "paragraph": "§5. Avslut\nOrdföranden förklarade stämman avslutad."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ordinarie föreningsstämma 2021",
+      "date": "2021-09-25",
+      "year": "2021",
+      "content": [
+        {
+          "paragraph": "Protokoll fört vid ordinarie föreningsstämma för Nordöstra Nämdö Samfällighetsförening den 25 september 2021."
+        },
+        {
+          "paragraph": "§1. Ordförande\nTill ordförande för stämman valdes Person K."
+        },
+        {
+          "paragraph": "§2. Sekreterare\nTill sekreterare för stämman valdes Person L."
+        },
+        {
+          "paragraph": "§3. Verksamhetsberättelse\nStyrelsen redovisade verksamheten för verksamhetsåret 2020–2021."
+        },
+        {
+          "paragraph": "§4. Ekonomi\nResultat- och balansräkning föredrogs. Stämman beslutade att fastställa räkenskaperna."
+        },
+        {
+          "paragraph": "§5. Ansvarsfrihet\nStämman beslutade att bevilja styrelsen ansvarsfrihet."
+        },
+        {
+          "paragraph": "§6. Val\nVal av styrelse och revisorer genomfördes enligt valberedningens förslag."
+        },
+        {
+          "paragraph": "§7. Avslut\nOrdföranden tackade de närvarande och förklarade stämman avslutad."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Extra föreningsstämma – Digital kommunikation",
+      "date": "2020-11-07",
+      "year": "2020",
+      "content": [
+        {
+          "paragraph": "Protokoll fört vid extra föreningsstämma för Nordöstra Nämdö Samfällighetsförening den 7 november 2020."
+        },
+        {
+          "paragraph": "§1. Bakgrund\nStämman sammankallades för att diskutera förbättrade kommunikationskanaler inom föreningen."
+        },
+        {
+          "paragraph": "§2. Presentation\nStyrelsen presenterade förslag på digitala lösningar för informationsspridning."
+        },
+        {
+          "paragraph": "§3. Diskussion\nDiskussion fördes kring e-postutskick, hemsida och tillgänglighet för medlemmar."
+        },
+        {
+          "paragraph": "§4. Beslut\nStämman beslutade att ge styrelsen i uppdrag att arbeta vidare med digital kommunikation."
+        },
+        {
+          "paragraph": "§5. Avslut\nOrdföranden förklarade stämman avslutad."
+        }
+      ]
+    }
+  ]
+}
