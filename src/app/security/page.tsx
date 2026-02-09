@@ -1,11 +1,14 @@
 // Components
 import PageShell from "@/components/layout/page-shell";
 
+// Variables
+const heading = "Säkerhetsfunktioner";
+
 // Page
-export default function AboutUsPage() {
+export default function SecurityPage() {
   return (
     <>
-      <PageShell title="Verksamhetsinformation" showHero={true}>
+      <PageShell title={heading} showHero={true}>
         <p>Content</p>
       </PageShell>
     </>

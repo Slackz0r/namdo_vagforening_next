@@ -1,8 +1,11 @@
+// Components
+import PageShell from "@/components/layout/page-shell";
+
+// Page
 export default function ContactPage() {
   return (
     <>
-      <main>
-        <h1>Kontakta oss</h1>
+      <PageShell title="Kontakta oss" showHero={true}>
         <section className="content contact-section">
           <form action="#">
             {/* First name */}
@@ -66,7 +69,7 @@ export default function ContactPage() {
             </button>
           </form>
         </section>
-      </main>
+      </PageShell>
     </>
   );
 }

@@ -1,9 +1,13 @@
+// Components
+import PageShell from "@/components/layout/page-shell";
+
+// Page
 export default function CalendarPage() {
   return (
     <>
-      <main>
-        <h1>Kalender</h1>
-      </main>
+      <PageShell title="Kalender" showHero={true}>
+        <p>Content</p>
+      </PageShell>
     </>
   );
 }

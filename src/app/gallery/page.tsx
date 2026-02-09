@@ -1,9 +1,13 @@
+// Components
+import PageShell from "@/components/layout/page-shell";
+
+// Page
 export default function GalleryPage() {
   return (
     <>
-      <main>
-        <h1>Bilder och video</h1>
-      </main>
+      <PageShell title="Bilder och video" showHero={true}>
+        <p>Content</p>
+      </PageShell>
     </>
   );
 }

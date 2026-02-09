@@ -1,6 +1,11 @@
-import { getNavigation } from "@/data/fetchFunctions";
+// Data fetch
+import { getNavigation } from "@/data/navigation";
+// Interfaces
+import type { INavigationLinks } from "@/models/INavigationLinks";
+// Components
+import Image from "next/image";
+import Link from "next/link";
 import NavMenu from "../navigation/navigation-menu";
-import { INavigationLinks } from "@/models/INavigationLinks";
 
 export default async function Header() {
   // Fetch data for navigation menu
@@ -10,7 +15,12 @@ export default async function Header() {
   return (
     <>
       <header className="site-header">
-        <NavMenu links={navLinks} />
+        <div className="header-content">
+          <Link href="/">
+            <Image src="/svg/MapCompass.svg" alt="Logo svg" height={50} width={50}></Image>
+          </Link>
+          <NavMenu links={navLinks} />
+        </div>
       </header>
     </>
   );

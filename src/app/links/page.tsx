@@ -1,9 +1,13 @@
+// Components
+import PageShell from "@/components/layout/page-shell";
+
+// Page
 export default function LinksPage() {
   return (
     <>
-      <main>
-        <h1>Länkar</h1>
-      </main>
+      <PageShell title="Länkar" showHero={true}>
+        <p>Content</p>
+      </PageShell>
     </>
   );
 }

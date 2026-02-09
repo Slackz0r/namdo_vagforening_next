@@ -1,9 +1,13 @@
+// Components
+import PageShell from "@/components/layout/page-shell";
+
+// Page
 export default function MembershipPage() {
   return (
     <>
-      <main>
-        <h1>Medlemskap</h1>
-      </main>
+      <PageShell title="Medlemskap" showHero={true}>
+        <p>Content</p>
+      </PageShell>
     </>
   );
 }

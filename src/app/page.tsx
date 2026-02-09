@@ -1,11 +1,13 @@
-import HeroBanner from "@/components/ui/hero-banner";
+// Components
+import PageShell from "@/components/layout/page-shell";
 
+// Page
 export default async function HomePage() {
-  const heading = "Nordöstra Nämdö Samfällighetsförening";
   return (
     <>
-      <HeroBanner text={heading} />
-      <main></main>
+      <PageShell title="Nordöstra Nämdö Samfällighetsförening" showHero={true}>
+        <p>Content</p>
+      </PageShell>
     </>
   );
 }

@@ -1,9 +1,13 @@
+// Components
+import PageShell from "@/components/layout/page-shell";
+
+// Page
 export default function MapPage() {
   return (
     <>
-      <main>
-        <h1>Karta över området</h1>
-      </main>
+      <PageShell title="Karta över området" showHero={true}>
+        <p>Content</p>
+      </PageShell>
     </>
   );
 }

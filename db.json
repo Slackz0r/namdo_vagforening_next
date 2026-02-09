@@ -34,6 +34,7 @@
       "category": "Övrigt",
       "subCategory": [
         { "href": "/gdpr", "title": "GDPR-information" },
+        { "href": "/security", "title": "Säkerhetsfunktioner" },
         { "href": "/links", "title": "Länkar" }
       ]
     }
@@ -41,10 +42,10 @@
   "meetings": [
     {
       "id": 1,
-      "title": "Ordinarie föreningsstämma 2023",
-      "date": "2023-09-23",
-      "year": "2023",
-      "content": [
+      "title": "Ordinarie föreningsstämma 2025",
+      "date": "2025-09-23",
+      "year": "2025",
+      "protocol": [
         {
           "paragraph": "Protokoll fört vid ordinarie föreningsstämma för Nordöstra Nämdö Samfällighetsförening den 23 september 2023."
         },
@@ -82,10 +83,10 @@
     },
     {
       "id": 2,
-      "title": "Extra föreningsstämma – Bryggprojekt",
+      "title": "Extra föreningsstämma - Bryggprojekt",
       "date": "2024-03-16",
       "year": "2024",
-      "content": [
+      "protocol": [
         {
           "paragraph": "Protokoll fört vid extra föreningsstämma för Nordöstra Nämdö Samfällighetsförening den 16 mars 2024."
         },
@@ -111,7 +112,7 @@
       "title": "Ordinarie föreningsstämma 2024",
       "date": "2024-09-21",
       "year": "2024",
-      "content": [
+      "protocol": [
         {
           "paragraph": "Protokoll fört vid ordinarie föreningsstämma för Nordöstra Nämdö Samfällighetsförening den 21 september 2024."
         },
@@ -140,10 +141,10 @@
     },
     {
       "id": 4,
-      "title": "Extra föreningsstämma – Vägar och tillgänglighet",
+      "title": "Extra föreningsstämma - Vägar och tillgänglighet",
       "date": "2022-05-14",
       "year": "2022",
-      "content": [
+      "protocol": [
         {
           "paragraph": "Protokoll fört vid extra föreningsstämma för Nordöstra Nämdö Samfällighetsförening den 14 maj 2022."
         },
@@ -169,7 +170,7 @@
       "title": "Ordinarie föreningsstämma 2021",
       "date": "2021-09-25",
       "year": "2021",
-      "content": [
+      "protocol": [
         {
           "paragraph": "Protokoll fört vid ordinarie föreningsstämma för Nordöstra Nämdö Samfällighetsförening den 25 september 2021."
         },
@@ -198,10 +199,10 @@
     },
     {
       "id": 6,
-      "title": "Extra föreningsstämma – Digital kommunikation",
+      "title": "Extra föreningsstämma - Digital kommunikation",
       "date": "2020-11-07",
       "year": "2020",
-      "content": [
+      "protocol": [
         {
           "paragraph": "Protokoll fört vid extra föreningsstämma för Nordöstra Nämdö Samfällighetsförening den 7 november 2020."
         },

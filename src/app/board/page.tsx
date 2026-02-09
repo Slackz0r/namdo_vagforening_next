@@ -1,9 +1,13 @@
+// Components
+import PageShell from "@/components/layout/page-shell";
+
+// Page
 export default function BoardPage() {
   return (
     <>
-      <main>
-        <h1>Styrelse</h1>
-      </main>
+      <PageShell title="Styrelse" showHero={true}>
+        <p>Content</p>
+      </PageShell>
     </>
   );
 }

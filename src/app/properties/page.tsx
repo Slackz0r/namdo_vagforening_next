@@ -1,9 +1,13 @@
+// Components
+import PageShell from "@/components/layout/page-shell";
+
+// Page
 export default function PropertiesPage() {
   return (
     <>
-      <main>
-        <h1>Fastighetsbeteckningar</h1>
-      </main>
+      <PageShell title="Fastighetsbeteckningar" showHero={true}>
+        <p>Content</p>
+      </PageShell>
     </>
   );
 }
