@@ -130,15 +130,16 @@ a {
   --fs-700: 2rem;
   --fs-800: 2.5rem;
   --fs-900: 3rem;
-  --fs-1000: 4rem;
 }
 
 /*** Flow ***/
 
+/* Base flow spacing */
 .flow > * + * {
   margin-block-start: var(--spacing-base);
 }
 
+/* Large flow spacing */
 .flow-large > * + * {
   margin-block-start: var(--spacing-large);
 }
@@ -249,7 +250,7 @@ h1 {
     display: flex;
     align-items: flex-end;
 
-    padding: var(--spacing-base);
+    padding-block: var(--spacing-base);
     max-width: 1200px;
     margin-inline: auto;
   }
@@ -262,6 +263,30 @@ h1 {
   }
 }
 
+/* Site footer */
+.site-footer {
+  background-color: var(--color-footer-bg);
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+  padding-block: var(--spacing-base);
+  margin-block-start: var(--spacing-large);
+
+  .footer-content {
+    max-width: 1200px;
+    margin-inline: auto;
+
+    a {
+      color: var(--color-footer-link);
+
+      &:hover {
+        color: var(--color-footer-link-hover);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+    }
+  }
+}
+
 /* Content container */
 .content {
   background-color: var(--color-surface);
@@ -270,10 +295,14 @@ h1 {
   box-shadow: var(--border-shadow);
 }
 
-/* Meeting protocols */
+/* Meeting protocol in list */
 .meeting-protocol {
   border: 2px solid var(--color-border);
-  padding: var(--spacing-base);
+}
+
+/* Single meeting protocol sub-page */
+.protocol-item {
+  margin-block: var(--spacing-base);
 }
 
 /* Forms and inputs */
@@ -299,25 +328,86 @@ h1 {
   }
 }
 
-.site-footer {
-  background-color: var(--color-footer-bg);
-  border-top: 2px solid rgba(255, 255, 255, 0.1);
-  width: 100%;
-  padding-block: var(--spacing-base);
-  margin-block-start: var(--spacing-large);
+/* Photo gallery grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-large);
 
-  .footer-content {
-    max-width: 1200px;
-    margin-inline: auto;
+  .card {
+    background-color: var(--color-surface);
+    border: 2px solid var(--color-border);
+    box-shadow: var(--border-shadow);
+    overflow: hidden;
+    border-radius: var(--spacing-base);
 
-    a {
-      color: var(--color-footer-link);
+    .gallery-image-container {
+      aspect-ratio: 4 / 3;
 
-      &:hover {
-        color: var(--color-footer-link-hover);
-        text-decoration: underline;
-        text-underline-offset: 3px;
+      .gallery-image {
+        object-fit: cover;
       }
     }
+
+    .card-caption {
+      padding: calc(var(--spacing-base) / 1.25);
+
+      .caption-title {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .caption-meta {
+        color: var(--color-text-muted);
+        font-style: italic;
+      }
+    }
+  }
+}
+
+/* Start bento */
+.bento-start {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 2rem;
+
+  .grid-box {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 1.25rem;
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .grid-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  }
+
+  .grid-box h2,
+  .grid-box h3 {
+    margin-bottom: 0.5rem;
+    color: var(--color-primary);
+  }
+
+  .grid-box p {
+    color: var(--color-text-muted);
+    font-size: var(--fs-200);
+  }
+
+  /* Större rutor */
+  .hero-box {
+    grid-column: span 2;
+  }
+
+  .wide-box {
+    grid-column: span 2;
+  }
+
+  .tall-box {
+    grid-row: span 2;
   }
 }

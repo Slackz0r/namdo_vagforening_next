@@ -36,6 +36,14 @@ export default function ContactPage() {
               />
             </div>
 
+            {/* Property id */}
+            <div className="input-container">
+              <label htmlFor="property-id">
+                Fastighetsnummer: <span className="required-cross">*</span>
+              </label>
+              <input type="text" id="property-id" placeholder="2354:2322-42" required />
+            </div>
+
             {/* Email */}
             <div className="input-container">
               <label htmlFor="user-email">

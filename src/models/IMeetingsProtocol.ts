@@ -3,9 +3,16 @@ export interface IMeetingProtocol {
   title: string;
   date: string;
   year: number;
-  protocol: IProtocolParagraph[];
+  protocol: IProtocolContent;
 }
 
-export interface IProtocolParagraph {
-  paragraph: string;
+export interface IProtocolContent {
+  intro: string;
+  items: IProtocolItem[];
+}
+
+export interface IProtocolItem {
+  no: string;
+  title: string;
+  body: string;
 }

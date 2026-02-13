@@ -11,10 +11,10 @@ type PageShellProps = {
 export default function PageShell({ title, children, showHero }: PageShellProps) {
   return (
     <>
-      <main aria-labelledby="page-title">
+      <main className="flow-large" aria-labelledby="page-title">
         {showHero && <HeroBanner title={title} />}
 
-        <div className="page-container">
+        <div className="page-container flow-large">
           {/* Add components as children */}
           {children}
         </div>

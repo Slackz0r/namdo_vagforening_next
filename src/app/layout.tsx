@@ -31,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="sv">
+    <html lang="sv-SE">
       <body className={`${sourceSans.variable} ${lora.variable}`}>
         <Header />
         {children}

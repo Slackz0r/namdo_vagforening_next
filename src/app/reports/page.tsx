@@ -9,6 +9,7 @@ import Link from "next/link";
 // Components
 import PageShell from "@/components/layout/page-shell";
 
+// Page
 export default async function ReportsPage() {
   // Get meeting protocols from database
   const meetings: IMeetingProtocol[] = await getMeetings();

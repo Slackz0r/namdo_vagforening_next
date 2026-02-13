@@ -24,19 +24,19 @@ export default async function ProtocolPage({ params }: { params: Promise<{ id: n
   // Destructuring protocol
   const { title, date, year, protocol } = thisProtocol;
 
-  // Variables
-  const heading = `Mötesprotokoll ${date}`;
-
   return (
     <>
-      <PageShell title={heading} showHero={false}>
-        <h1>{heading}</h1>
+      <PageShell title="" showHero={false}>
+        <h1>{`Mötesprotokoll ${date}`}</h1>
 
         <article className="content">
           <h2>{title}</h2>
           <time dateTime={date}>{formatDate(date)}</time>
-          {protocol.map(({ paragraph }) => (
-            <p key={id}>{paragraph}</p>
+          {protocol.items.map(({ no, title, body }) => (
+            <div className="protocol-item" key={id + body}>
+              <h3>{`${no}: ${title}`}</h3>
+              <p>{body}</p>
+            </div>
           ))}
         </article>
       </PageShell>
