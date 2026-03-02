@@ -1,5 +1,5 @@
 // Base url
-const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
+const BASE_URL = process.env.API_BASE_URL;
 
 // Get all meetings
 export const getMeetings = async () => {
