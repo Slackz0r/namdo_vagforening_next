@@ -1,5 +1,6 @@
 // Components
 import PageShell from "@/components/layout/page-shell";
+import Form from "next/form";
 
 // Page
 export default function ContactPage() {
@@ -7,7 +8,7 @@ export default function ContactPage() {
     <>
       <PageShell title="Kontakta oss" showHero={true}>
         <section className="content contact-section">
-          <form action="#">
+          <Form action="#">
             {/* First name */}
             <div className="input-container">
               <label htmlFor="user-first-name">
@@ -75,7 +76,7 @@ export default function ContactPage() {
             <button type="submit" id="submit-form-btn" className="btn">
               Skicka
             </button>
-          </form>
+          </Form>
         </section>
       </PageShell>
     </>
