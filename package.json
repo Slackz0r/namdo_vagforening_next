@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "mock": "nodemon --watch db.json --exec json-server db.json --port 3001",
+    "mock": "nodemon --watch db.json --exec json-server db.json --port 4000",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

@@ -14,7 +14,7 @@ export default async function HomePage() {
 
           <h2>Den omfattar:</h2>
 
-          <ul className="">
+          <ul>
             <li>
               <p>Östanviks Brygga</p>
             </li>
