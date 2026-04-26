@@ -373,6 +373,89 @@ h3 {
   }
 }
 
+/* Home page */
+.home-intro {
+  max-width: 1200px;
+  margin: var(--spacing-large) auto;
+  padding: clamp(1.5rem, 4vw, 3rem);
+
+  background-color: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--spacing-base);
+  box-shadow: var(--border-shadow);
+
+  color: var(--color-text);
+  line-height: 1.75;
+}
+
+.home-intro p {
+  max-width: 1200px;
+  font-size: 1.125rem;
+}
+
+.home-intro h2 {
+  margin-block-start: var(--spacing-large);
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  line-height: 1.2;
+}
+
+.home-list {
+  display: grid;
+  gap: 0.75rem;
+  margin-block-start: var(--spacing-base);
+}
+
+.home-list li {
+  position: relative;
+  padding: 1rem 1rem 1rem 3rem;
+
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+}
+
+.home-list li::before {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  top: 1.25rem;
+
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+
+  background-color: var(--color-primary);
+}
+
+.home-list p {
+  font-weight: var(--fw-600);
+  color: var(--color-text);
+}
+
+/* Slightly wider on larger screens */
+@media (min-width: 900px) {
+  .home-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .home-intro {
+    margin-block: var(--spacing-base);
+    padding: 1.25rem;
+    border-inline: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .home-intro p {
+    font-size: 1.0625rem;
+  }
+}
+
 /* Statutes page */
 .statutes-document {
   max-width: 820px;

@@ -6,7 +6,7 @@ export default async function HomePage() {
   return (
     <>
       <PageShell title="Nordöstra Nämdö Samfällighetsförening" showHero={true}>
-        <section className="flow">
+        <section className="home-intro flow">
           <p>
             Nordöstra Nämdö samfällighetsförening innefattar 92 fastigheter på norra Nämdö.
             Föreningen etablerades vid en förrättning av Lantmäteriet 1985.
@@ -14,7 +14,7 @@ export default async function HomePage() {
 
           <h2>Den omfattar:</h2>
 
-          <ul>
+          <ul className="home-list" role="list">
             <li>
               <p>Östanviks Brygga</p>
             </li>
